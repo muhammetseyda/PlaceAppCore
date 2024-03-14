@@ -20,7 +20,7 @@ namespace BusinessLayer.Concrete
                 var smtpClient = new SmtpClient("smtp.office365.com")
                 {
                     Port = 587,
-                    Credentials = new NetworkCredential("placeappwhere@outlook.com", "Olduyaoldu123456."),
+                    Credentials = new NetworkCredential("placeappwhere@outlook.com", ""),
                     EnableSsl = true,
                 };
 
